@@ -43,6 +43,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
     min-height: 100vh;
+    overflow-y: hidden;
 }
 
 /* ========================================
@@ -52,12 +53,12 @@ body {
 .portfolio-container {
     position: relative;
     z-index: 2;
-    min-height: 50vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: var(--spacing-xl) var(--spacing-xl);
+    padding: 4rem var(--spacing-xl);
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
@@ -69,7 +70,7 @@ body {
 
 .name {
     font-family: var(--font-display);
-    font-size: clamp(1.25rem, 2.5vw, 2rem);
+    font-size: clamp(1.125rem, 2.5vw, 1.75rem);
     font-weight: 400;
     margin-bottom: 0;
     transition: var(--transition-smooth);
@@ -81,13 +82,13 @@ body {
    ======================================== */
 
 .description {
-    margin-bottom: var(--spacing-lg);
+    margin-bottom: 0.75rem;
     max-width: 650px;
 }
 
 .description-text {
     font-family: var(--font-body);
-    font-size: clamp(1.125rem, 2vw, 1.375rem);
+    font-size: clamp(1rem, 2vw, 1.25rem);
     line-height: 1;
     margin: 0;
     transition: var(--transition-smooth);
@@ -99,12 +100,12 @@ body {
    ======================================== */
 
 .role {
-    margin-bottom: var(--spacing-lg);
+    margin-bottom: 0.75rem;
 }
 
 .role-title {
     font-family: var(--font-display);
-    font-size: clamp(1.25rem, 2.5vw, 2rem);
+    font-size: clamp(1.125rem, 2.5vw, 1.75rem);
     font-weight: 400;
     margin: 0;
     transition: var(--transition-smooth);
@@ -113,7 +114,7 @@ body {
 
 .role-subtitle {
     font-family: var(--font-body);
-    font-size: clamp(1.125rem, 2vw, 1.375rem);
+    font-size: clamp(1rem, 2vw, 1.25rem);
     line-height: 1;
     margin: 0;
     transition: var(--transition-smooth);
@@ -127,7 +128,7 @@ body {
 
 .contact-title {
     font-family: var(--font-display);
-    font-size: clamp(1.25rem, 2.5vw, 2rem);
+    font-size: clamp(1.125rem, 2.5vw, 1.75rem);
     font-weight: 400;
     margin: 0 0 0 0;
     transition: var(--transition-smooth);
@@ -140,7 +141,7 @@ body {
 
 .contact-line {
     font-family: var(--font-body);
-    font-size: clamp(1.125rem, 2vw, 1.375rem);
+    font-size: clamp(1rem, 2vw, 1.25rem);
     line-height: 1;
     margin: 0;
     color: var(--color-text-muted);
@@ -172,7 +173,7 @@ body {
     display: flex;
     gap: var(--spacing-sm);
     justify-content: center;
-    margin-top: var(--spacing-lg);
+    margin-top: 3rem;
     flex-wrap: nowrap;
 }
 
@@ -221,7 +222,21 @@ body {
     }
 
     .portfolio-container {
-        padding: var(--spacing-lg) var(--spacing-md);
+        padding: 3rem var(--spacing-lg);
+    }
+
+    .landing-nav {
+        flex-direction: column;
+        gap: 0.75rem;
+        margin-top: 2rem;
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .nav-button {
+        width: 100%;
+        text-align: center;
+        padding: 0.625rem 1rem;
     }
 }
 
@@ -232,8 +247,21 @@ body {
         --spacing-md: 0.75rem;
     }
 
+    .portfolio-container {
+        padding: 2rem 1rem;
+    }
+
     .contact-line {
         margin-bottom: 0.2rem;
+    }
+
+    .landing-nav {
+        margin-top: 1.5rem;
+    }
+
+    .nav-button {
+        font-size: 0.75rem;
+        padding: 0.5rem 0.875rem;
     }
 }
 
