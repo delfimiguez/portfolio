@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Test Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 { color: #333; }
+        .test-section {
+            margin: 30px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .test-item {
+            margin: 10px 0;
+            padding: 10px;
+            background: #f5f5f5;
+        }
+        .pass { color: green; }
+        .fail { color: red; }
+        code {
+            background: #eee;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>🧪 Portfolio Testing Page</h1>
+    <p>Use this page to verify all portfolio functionality works correctly.</p>
+
+    <div class="test-section">
+        <h2>1. Landing Page Animation</h2>
+        <div class="test-item">
+            <strong>Test:</strong> Open <a href="index.html">index.html</a><br>
+            <strong>Action:</strong> Hover over any letter in "Delfina Miguez" or other text<br>
+            <strong>Expected:</strong> ✅ Colored blob capsules appear behind the letter<br>
+            <strong>Expected:</strong> ✅ Letter fades out temporarily<br>
+            <strong>Expected:</strong> ✅ Capsule grows and fades away<br>
+            <strong>Common Issue:</strong> If not working, check browser console (F12) for errors
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>2. Navigation Buttons</h2>
+        <div class="test-item">
+            <strong>Test:</strong> On <a href="index.html">index.html</a>, scroll to bottom<br>
+            <strong>Expected:</strong> ✅ Three buttons visible: "For Recruiters", "For Clients", "Playground"<br>
+            <strong>Expected:</strong> ✅ Buttons are rounded rectangles (not pills)<br>
+            <strong>Expected:</strong> ✅ Clicking each button navigates to correct page
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>3. Process Toggle</h2>
+        <div class="test-item">
+            <strong>Test:</strong> Open <a href="recruiters.html">recruiters.html</a><br>
+            <strong>Expected:</strong> ✅ Toggle labeled "Process" visible in header<br>
+            <strong>Action:</strong> Click the toggle switch or the "Process" label<br>
+            <strong>Expected:</strong> ✅ Toggle switches on/off visually<br>
+            <strong>Expected:</strong> ✅ Project content changes (short summaries ↔ full case studies)<br>
+            <strong>Action:</strong> Refresh page<br>
+            <strong>Expected:</strong> ✅ Toggle state persists (uses localStorage)<br>
+            <strong>Debug:</strong> Open console and type: <code>localStorage.getItem('processMode')</code>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>4. Project Cards & Detail Pages</h2>
+        <div class="test-item">
+            <strong>Test:</strong> On <a href="recruiters.html">recruiters.html</a><br>
+            <strong>Expected:</strong> ✅ Projects appear (3 Graphic Design, 2 Vibe Coding)<br>
+            <strong>Action:</strong> Click any project card<br>
+            <strong>Expected:</strong> ✅ Opens project detail page<br>
+            <strong>Expected:</strong> ✅ URL shows: <code>projects/project.html?slug=project-name</code><br>
+            <strong>Expected:</strong> ✅ Project content loads correctly<br>
+            <strong>Expected:</strong> ✅ Sidebar navigation works<br>
+            <strong>Test Invalid:</strong> Try <code>projects/project.html?slug=invalid</code><br>
+            <strong>Expected:</strong> ✅ Shows error page with link back
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>5. Tabs (Clients Page)</h2>
+        <div class="test-item">
+            <strong>Test:</strong> Open <a href="clients.html">clients.html</a><br>
+            <strong>Expected:</strong> ✅ Two tabs: "Graphic Design" and "Photography"<br>
+            <strong>Action:</strong> Click between tabs<br>
+            <strong>Expected:</strong> ✅ Content switches<br>
+            <strong>Expected:</strong> ✅ Active tab highlighted<br>
+            <strong>Expected:</strong> ✅ Photography shows series with hero + 3 frames
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>6. Sticky Sidebar (About/Services)</h2>
+        <div class="test-item">
+            <strong>Test:</strong> Open <a href="about.html">about.html</a> or <a href="services.html">services.html</a><br>
+            <strong>Expected:</strong> ✅ Sidebar with "Contents" on left<br>
+            <strong>Action:</strong> Scroll down page<br>
+            <strong>Expected:</strong> ✅ Sidebar stays visible (sticky)<br>
+            <strong>Action:</strong> Click sidebar link<br>
+            <strong>Expected:</strong> ✅ Smooth scroll to section<br>
+            <strong>Expected:</strong> ✅ Active link updates as you scroll
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>7. Mobile Responsive</h2>
+        <div class="test-item">
+            <strong>Test:</strong> Resize browser to mobile size (< 768px)<br>
+            <strong>Expected:</strong> ✅ Global nav: Hamburger menu appears<br>
+            <strong>Expected:</strong> ✅ Landing buttons: Stack vertically<br>
+            <strong>Expected:</strong> ✅ Project detail sidebar: Moves to top as horizontal nav<br>
+            <strong>Expected:</strong> ✅ About/Services sidebar: Becomes horizontal pills<br>
+            <strong>Test:</strong> Open mobile menu, click link<br>
+            <strong>Expected:</strong> ✅ Menu closes after navigation
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>8. Browser Console Check</h2>
+        <div class="test-item">
+            <strong>Action:</strong> Open browser console (F12)<br>
+            <strong>On any page:</strong><br>
+            <strong>Expected:</strong> ✅ No red errors<br>
+            <strong>Expected:</strong> ✅ All scripts load (check Network tab)<br>
+            <strong>On recruiters page, check:</strong><br>
+            <code>typeof ProcessToggle</code> → should be "function"<br>
+            <code>typeof getProjectBySlug</code> → should be "function"<br>
+            <strong>On landing page, check:</strong><br>
+            <code>typeof TextSplitter</code> → should be "function"<br>
+            <code>typeof CapsuleManager</code> → should be "function"
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>Quick Fix Reference</h2>
+        <div class="test-item">
+            <strong>Animation not working?</strong><br>
+            → Check: Is <code>script.js</code> loading?<br>
+            → Check: Console for errors<br>
+            → Try: Hard refresh (Ctrl+Shift+R or Cmd+Shift+R)<br>
+            <br>
+            <strong>Toggle not working?</strong><br>
+            → Check: Is <code>global.js</code> loading?<br>
+            → Check: Console shows <code>ProcessToggle is not defined</code>?<br>
+            → Check: Element ID is exactly <code>processToggle</code><br>
+            <br>
+            <strong>Projects not appearing?</strong><br>
+            → Check: Is <code>projects-data-extended.js</code> loading?<br>
+            → Check: Script load order (data file before global.js)<br>
+            <br>
+            <strong>Styles broken?</strong><br>
+            → Check: All CSS files in same folder as HTML<br>
+            → Check: File names match exactly (case-sensitive)<br>
+            <br>
+            <strong>Still not working?</strong><br>
+            → Try: Different browser<br>
+            → Try: Incognito/private window<br>
+            → Check: All files extracted from zip correctly
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>✅ All Tests Passing?</h2>
+        <p>If all tests above pass, your portfolio is fully functional!</p>
+        <p><strong>Next steps:</strong></p>
+        <ul>
+            <li>Customize content in <code>projects-data-extended.js</code></li>
+            <li>Replace image placeholders with real images</li>
+            <li>Update contact information</li>
+            <li>Deploy to web hosting</li>
+        </ul>
+    </div>
+
+    <hr style="margin: 40px 0;">
+    <p style="text-align: center; color: #666;">
+        <small>For detailed documentation, see README.md</small>
+    </p>
+</body>
+</html>
