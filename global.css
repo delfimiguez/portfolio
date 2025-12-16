@@ -123,14 +123,17 @@ body {
 .nav-button {
     font-family: var(--font-display);
     font-size: 0.9375rem;
-    padding: 0.625rem 1.25rem;
+    padding: 1rem 2rem;
     background: transparent;
     border: 1px solid var(--color-border);
+    border-radius: 50px;
     color: var(--color-text);
     text-decoration: none;
     transition: var(--transition-smooth);
     cursor: pointer;
     display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
 
 .nav-button:hover {
