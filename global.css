@@ -181,7 +181,7 @@ body {
     flex-shrink: 0;
 }
 
-.process-toggle label {
+.process-toggle > label:first-of-type {
     font-family: var(--font-display);
     font-size: 0.9375rem;
     cursor: pointer;
@@ -196,6 +196,8 @@ body {
     border: 1px solid var(--color-border);
     cursor: pointer;
     transition: var(--transition-smooth);
+    flex-shrink: 0;
+    display: block;
 }
 
 .toggle-switch::after {
@@ -210,7 +212,10 @@ body {
 }
 
 .toggle-checkbox {
-    display: none;
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
 }
 
 .toggle-checkbox:checked + .toggle-switch {
