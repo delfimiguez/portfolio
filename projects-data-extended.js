@@ -24,6 +24,17 @@ const PORTFOLIO_DATA = {
             
             summary: 'Comprehensive brand output simulator and design system documentation for construction technology platform.',
             
+            // Case study for Process toggle (recruiters page)
+            caseStudy: {
+                context: 'Revizto needed scalable brand guidelines that could be applied consistently across digital and print touchpoints by both internal teams and external partners.',
+                role: 'Senior Creative Developer & Brand System Designer',
+                problem: 'Existing brand assets lacked systematic guardrails, leading to inconsistent application across social media, presentations, and marketing materials.',
+                process: 'Developed an interactive brand simulator that generates social media formats with automated composition rules. Built comprehensive documentation covering typography, color systems, layout grids, and asset usage. Created constraint-based output templates to prevent brand misuse.',
+                tools: ['Figma', 'JavaScript', 'HTML/CSS', 'Brand Guidelines'],
+                outcome: 'Delivered automated brand consistency tool that reduced design review cycles by 60% and empowered non-designers to create on-brand content.',
+                learnings: 'Constraint-based systems are more effective than infinite customization options for maintaining brand integrity at scale.'
+            },
+            
             // Full project detail content
             sections: {
                 summary: {
@@ -67,6 +78,16 @@ const PORTFOLIO_DATA = {
             
             summary: 'Complete visual identity overhaul for emerging financial technology platform targeting Gen Z investors.',
             
+            caseStudy: {
+                context: 'Altura Financial needed to differentiate in a crowded fintech market while building trust with a skeptical younger demographic.',
+                role: 'Lead Brand Designer',
+                problem: 'Existing identity felt corporate and dated, failing to connect with the target audience\'s values around transparency and accessibility.',
+                process: 'Developed bold, approachable visual language combining geometric precision with organic gradients. Created comprehensive brand book including logo system, color palette, typography, illustration style, and photography guidelines.',
+                tools: ['Illustrator', 'Photoshop', 'InDesign', 'Brand Strategy'],
+                outcome: 'New identity contributed to 180% increase in app downloads within first quarter post-launch.',
+                learnings: 'Financial brands can embrace personality without sacrificing credibility when grounded in strategic positioning.'
+            },
+            
             sections: {
                 summary: {
                     title: 'Summary',
@@ -108,6 +129,16 @@ const PORTFOLIO_DATA = {
             thumbnail: 'sonar-thumb',
             
             summary: 'Dynamic visual identity for experimental music and technology festival fringe events.',
+            
+            caseStudy: {
+                context: 'Fringe events needed distinct identity that complemented main Sónar festival while establishing independent presence.',
+                role: 'Visual Identity Designer',
+                problem: 'How to honor electronic music\'s experimental nature while maintaining legibility across chaotic festival environments.',
+                process: 'Created generative visual system where typography and color respond to audio input. Developed flexible poster templates, wayfinding, and digital assets that adapt to venue-specific contexts.',
+                tools: ['Processing', 'Illustrator', 'Generative Design'],
+                outcome: 'Identity received international design recognition and contributed to 120% attendance increase.',
+                learnings: 'Systematic thinking can coexist with spontaneity—structure enables improvisation.'
+            },
             
             sections: {
                 summary: {
@@ -238,6 +269,16 @@ const PORTFOLIO_DATA = {
             
             summary: '3D particle system visualizing microplastic concentration in atmosphere using real environmental data.',
             
+            caseStudy: {
+                context: 'Interactive piece making invisible environmental crisis tangible through data visualization.',
+                role: 'Creative Technologist',
+                problem: 'How to make invisible atmospheric pollution visible and emotionally resonant without sensationalizing.',
+                process: 'Built particle system in Three.js where particle count, color, and movement speed represent microplastic measurements from scientific studies. Viewers can rotate view and explore different atmospheric layers.',
+                tech: ['Three.js', 'JavaScript', 'WebGL', 'Scientific Data APIs'],
+                outcome: 'Featured in creative coding showcase and sparked discussions about data-driven environmental storytelling.',
+                learnings: 'Abstract data becomes visceral when given physical form—interactivity deepens understanding.'
+            },
+            
             sections: {
                 summary: {
                     title: 'About',
@@ -279,6 +320,16 @@ const PORTFOLIO_DATA = {
             liveLink: '#',
             
             summary: 'Interactive tool generating animated typography compositions across multiple animation modes.',
+            
+            caseStudy: {
+                context: 'Exploration of programmatic motion design and generative typography systems.',
+                role: 'Creative Developer',
+                problem: 'Creating constraint-based creativity tools that suggest rather than dictate.',
+                process: 'Built system offering wave, spiral, scatter, and typewriter animation modes. Users input text and select animation style—system handles timing, easing, and composition automatically.',
+                tech: ['JavaScript', 'CSS Animations', 'Canvas API', 'Animation Libraries'],
+                outcome: 'Used in personal portfolio and inspired client work exploring motion in branding.',
+                learnings: 'Constraint-based creativity tools are most effective when they suggest rather than dictate.'
+            },
             
             sections: {
                 summary: {

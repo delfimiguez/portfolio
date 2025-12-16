@@ -310,7 +310,7 @@ body {
     color: var(--color-text-muted);
 }
 
-/* Short summary - always visible */
+/* Short summary - visible by default (Process OFF) */
 .project-summary {
     font-family: var(--font-body);
     font-size: 0.9375rem;
@@ -319,7 +319,7 @@ body {
     color: var(--color-text-muted);
 }
 
-/* Case study sections - hidden by default */
+/* Case study sections - hidden by default (Process OFF) */
 .project-case-study {
     display: none;
     margin-top: var(--spacing-sm);
@@ -327,7 +327,7 @@ body {
     border-top: 1px solid #e5e5e5;
 }
 
-/* When Process is ON */
+/* When Process is ON - show case study, hide summary */
 body.process-on .project-case-study {
     display: block;
 }
