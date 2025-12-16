@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Client Work - Delfina Miguez Portfolio">
+    <title>For Clients — Delfina Miguez</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="global.css">
+</head>
+<body>
+    <!-- Global Navigation -->
+    <nav class="site-nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Delfina Miguez</a>
+            <button class="nav-toggle">Menu</button>
+            <ul class="nav-links">
+                <li><a href="recruiters.html">Recruiters</a></li>
+                <li><a href="clients.html">Clients</a></li>
+                <li><a href="playground.html">Playground</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="header-content">
+            <h1>Client Work</h1>
+            <p>Visual outcomes and creative solutions across graphic design and photography. Work that delivers impact for brands, businesses, and cultural organizations.</p>
+        </div>
+    </header>
+
+    <!-- Projects Container with Tabs -->
+    <div class="projects-container">
+        <div class="tabs">
+            <div class="tab-buttons">
+                <button class="tab-button active" data-tab="graphicDesign">Graphic Design</button>
+                <button class="tab-button" data-tab="photography">Photography</button>
+            </div>
+
+            <!-- Graphic Design Tab -->
+            <div class="tab-content active" id="graphicDesign">
+                <div class="projects-grid" id="graphicDesignGrid"></div>
+            </div>
+
+            <!-- Photography Tab -->
+            <div class="tab-content" id="photography">
+                <div class="projects-grid" id="photographyGrid"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="projects-data.js"></script>
+    <script src="global.js"></script>
+    <script>
+        // Render projects when page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            const clientData = getClientProjects();
+            
+            // Render Graphic Design projects
+            const gdGrid = document.getElementById('graphicDesignGrid');
+            clientData.graphicDesign.forEach(project => {
+                const card = ProjectRenderer.renderProjectCard(project);
+                gdGrid.appendChild(card);
+            });
+            
+            // Render Photography series
+            const photoGrid = document.getElementById('photographyGrid');
+            clientData.photography.forEach(series => {
+                const card = ProjectRenderer.renderPhotoSeriesCard(series);
+                photoGrid.appendChild(card);
+            });
+        });
+    </script>
+</body>
+</html>
