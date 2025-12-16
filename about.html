@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="content-pages.css">
 </head>
 <body>
     <!-- Global Navigation -->
@@ -30,46 +31,112 @@
         </div>
     </nav>
 
-    <!-- About Content -->
-    <div class="content-page">
-        <h1>About</h1>
-        
-        <p>I'm Delfina Miguez, a designer and creative technologist based in Barcelona, working at the intersection of brand design, photography, and interactive experiences.</p>
+    <!-- Content Container -->
+    <div class="content-page-container">
+        <!-- Page Header -->
+        <header class="content-page-header">
+            <h1>About</h1>
+        </header>
 
-        <p>As founder of Delphi Design, I help organizations build visual systems that scale — from early-stage startups establishing their identity to established brands evolving their presence. My approach combines strategic thinking with hands-on craft, ensuring that design solutions are both conceptually sound and beautifully executed.</p>
+        <!-- Main Content with Sidebar -->
+        <div class="content-wrapper">
+            <!-- Sticky Sidebar -->
+            <aside class="content-sidebar">
+                <nav class="content-nav">
+                    <h3 class="content-nav-title">Contents</h3>
+                    <ul class="content-nav-links">
+                        <li><a href="#summary">Summary</a></li>
+                        <li><a href="#strengths">Strengths</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#approach">Approach</a></li>
+                        <li><a href="#background">Background</a></li>
+                    </ul>
+                </nav>
+            </aside>
 
-        <p>My practice spans three disciplines: graphic design focused on brand systems and campaign work, photography ranging from commercial to fine art, and creative coding exploring how interactivity can enhance storytelling. This multidisciplinary background allows me to approach projects holistically, considering how visual identity, imagery, and digital experiences work together.</p>
+            <!-- Main Content -->
+            <main class="content-main">
+                <!-- Summary -->
+                <section class="content-section" id="summary">
+                    <h2>Summary</h2>
+                    <p>I'm Delfina Miguez, a designer and creative technologist based in Barcelona, working at the intersection of brand design, photography, and interactive experiences.</p>
+                    <p>As founder of Delphi Design, I help organizations build visual systems that scale—from early-stage startups establishing their identity to established brands evolving their presence. My approach combines strategic thinking with hands-on craft, ensuring that design solutions are both conceptually sound and beautifully executed.</p>
+                    <p>My practice spans three disciplines: graphic design focused on brand systems and campaign work, photography ranging from commercial to fine art, and creative coding exploring how interactivity can enhance storytelling. This multidisciplinary background allows me to approach projects holistically, considering how visual identity, imagery, and digital experiences work together.</p>
+                </section>
 
-        <h2>Core Strengths</h2>
-        <ul>
-            <li><strong>Brand Systems & Design Systems:</strong> Creating scalable visual frameworks with built-in guardrails that maintain consistency without requiring constant oversight</li>
-            <li><strong>Strategic Visual Thinking:</strong> Translating business objectives and audience needs into compelling visual narratives</li>
-            <li><strong>Craft & Execution:</strong> Meticulous attention to typography, composition, and detail across digital and print</li>
-            <li><strong>Creative Development:</strong> Bridging design and code to create custom interactive experiences</li>
-            <li><strong>Cross-Medium Fluency:</strong> Moving seamlessly between brand identity, campaign design, photography, and digital products</li>
-        </ul>
+                <!-- Strengths -->
+                <section class="content-section" id="strengths">
+                    <h2>Core Strengths</h2>
+                    
+                    <div class="strength-grid">
+                        <div class="strength-card">
+                            <h3>Brand Systems & Design Systems</h3>
+                            <p>Creating scalable visual frameworks with built-in guardrails that maintain consistency without requiring constant oversight.</p>
+                        </div>
 
-        <h2>Industries & Contexts</h2>
-        <p>Technology (B2B SaaS, FinTech, Construction Tech), Culture (Music, Arts, Publishing), Sustainability & Social Impact, Hospitality & Food, Professional Services</p>
+                        <div class="strength-card">
+                            <h3>Strategic Visual Thinking</h3>
+                            <p>Translating business objectives and audience needs into compelling visual narratives.</p>
+                        </div>
 
-        <h2>What I Enjoy Building</h2>
-        <p>Visual identities that feel alive, not static. Design systems that empower teams rather than constrain them. Campaigns that balance emotional resonance with analytical rigor. Interactive experiences that surprise without sacrificing usability. Photography that reveals something beyond the obvious.</p>
+                        <div class="strength-card">
+                            <h3>Craft & Execution</h3>
+                            <p>Meticulous attention to typography, composition, and detail across digital and print.</p>
+                        </div>
 
-        <p>I'm drawn to projects where strategic complexity meets creative opportunity — where the constraints are interesting and the potential for systematic thinking is high. I believe the best design work operates at multiple levels: it solves immediate problems while establishing principles that guide future decisions.</p>
+                        <div class="strength-card">
+                            <h3>Creative Development</h3>
+                            <p>Bridging design and code to create custom interactive experiences.</p>
+                        </div>
 
-        <h2>Approach</h2>
-        <p>I work collaboratively, valuing open dialogue and iteration. My process emphasizes understanding context deeply before proposing solutions. I ask questions that might feel uncomfortable because they're often the ones that lead to stronger work. I believe in showing work early and often, treating feedback as a tool for refinement rather than a judgment.</p>
+                        <div class="strength-card">
+                            <h3>Cross-Medium Fluency</h3>
+                            <p>Moving seamlessly between brand identity, campaign design, photography, and digital products.</p>
+                        </div>
+                    </div>
 
-        <p>For brand and identity work, I focus on building flexible systems rather than rigid templates. For photography, I prioritize authentic moments over forced aesthetics. For interactive work, I emphasize clarity and intention over gratuitous complexity.</p>
+                    <div class="industries-section">
+                        <h3>Industries & Contexts</h3>
+                        <div class="pill-list">
+                            <span class="pill">Technology (B2B SaaS)</span>
+                            <span class="pill">FinTech</span>
+                            <span class="pill">Construction Tech</span>
+                            <span class="pill">Music & Arts</span>
+                            <span class="pill">Publishing</span>
+                            <span class="pill">Sustainability</span>
+                            <span class="pill">Social Impact</span>
+                            <span class="pill">Hospitality & Food</span>
+                            <span class="pill">Professional Services</span>
+                        </div>
+                    </div>
+                </section>
 
-        <h2>Background</h2>
-        <p>My journey into design was less linear than most. I studied visual communication but spent years exploring adjacent fields — photography, editorial design, front-end development — before finding my way to the intersection where I work now. This meandering path gave me perspective on how different creative disciplines inform each other.</p>
+                <!-- Experience -->
+                <section class="content-section" id="experience">
+                    <h2>What I Enjoy Building</h2>
+                    <p>Visual identities that feel alive, not static. Design systems that empower teams rather than constrain them. Campaigns that balance emotional resonance with analytical rigor. Interactive experiences that surprise without sacrificing usability. Photography that reveals something beyond the obvious.</p>
+                    <p>I'm drawn to projects where strategic complexity meets creative opportunity—where the constraints are interesting and the potential for systematic thinking is high. I believe the best design work operates at multiple levels: it solves immediate problems while establishing principles that guide future decisions.</p>
+                </section>
 
-        <p>Living and working in Barcelona shapes my practice. The city's design legacy, from Gaudí's organic modernism to the rigorous typography of the 1992 Olympics, creates a context where experimentation and craft coexist naturally.</p>
+                <!-- Approach -->
+                <section class="content-section" id="approach">
+                    <h2>Approach</h2>
+                    <p>I work collaboratively, valuing open dialogue and iteration. My process emphasizes understanding context deeply before proposing solutions. I ask questions that might feel uncomfortable because they're often the ones that lead to stronger work. I believe in showing work early and often, treating feedback as a tool for refinement rather than a judgment.</p>
+                    <p>For brand and identity work, I focus on building flexible systems rather than rigid templates. For photography, I prioritize authentic moments over forced aesthetics. For interactive work, I emphasize clarity and intention over gratuitous complexity.</p>
+                </section>
 
-        <p>Outside of client work, I maintain an active creative coding practice, build personal photography projects, and contribute to design communities through workshops and mentorship.</p>
+                <!-- Background -->
+                <section class="content-section" id="background">
+                    <h2>Background</h2>
+                    <p>My journey into design was less linear than most. I studied visual communication but spent years exploring adjacent fields—photography, editorial design, front-end development—before finding my way to the intersection where I work now. This meandering path gave me perspective on how different creative disciplines inform each other.</p>
+                    <p>Living and working in Barcelona shapes my practice. The city's design legacy, from Gaudí's organic modernism to the rigorous typography of the 1992 Olympics, creates a context where experimentation and craft coexist naturally.</p>
+                    <p>Outside of client work, I maintain an active creative coding practice, build personal photography projects, and contribute to design communities through workshops and mentorship.</p>
+                </section>
+            </main>
+        </div>
     </div>
 
     <script src="global.js"></script>
+    <script src="content-pages.js"></script>
 </body>
 </html>

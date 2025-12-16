@@ -116,14 +116,14 @@ body {
     display: flex;
     gap: var(--spacing-sm);
     justify-content: center;
-    margin-top: var(--spacing-lg);
+    margin-top: var(--spacing-md);
     flex-wrap: wrap;
 }
 
 .nav-button {
     font-family: var(--font-display);
     font-size: 0.9375rem;
-    padding: 0.50rem 1.rem;
+    padding: 0.75rem 1.5rem;
     background: transparent;
     border: 1px solid var(--color-border);
     border-radius: 50px;

@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="content-pages.css">
 </head>
 <body>
     <!-- Global Navigation -->
@@ -30,47 +31,124 @@
         </div>
     </nav>
 
-    <!-- Services Content -->
-    <div class="content-page">
-        <h1>Services</h1>
-        
-        <p>I work with organizations and individuals across three core disciplines, offering both standalone services and integrated approaches that leverage multiple skills. Projects can range from focused sprint work to ongoing partnerships.</p>
+    <!-- Content Container -->
+    <div class="content-page-container">
+        <!-- Page Header -->
+        <header class="content-page-header">
+            <h1>Services</h1>
+            <p class="header-intro">I work with organizations and individuals across three core disciplines, offering both standalone services and integrated approaches that leverage multiple skills.</p>
+        </header>
 
-        <div class="service-item">
-            <h3>Branding & Visual Identity</h3>
-            <p>Strategic brand development and visual identity systems that establish clear presence and scale with your organization. From naming and positioning to complete visual language, I build frameworks that guide consistent expression across touchpoints.</p>
-            <p class="service-deliverables"><strong>Typical deliverables:</strong> Logo systems, typography and color palettes, brand guidelines, design system documentation, application templates, brand toolkits</p>
+        <!-- Main Content with Sidebar -->
+        <div class="content-wrapper">
+            <!-- Sticky Sidebar -->
+            <aside class="content-sidebar">
+                <nav class="content-nav">
+                    <h3 class="content-nav-title">Contents</h3>
+                    <ul class="content-nav-links">
+                        <li><a href="#branding">Branding</a></li>
+                        <li><a href="#campaigns">Campaigns</a></li>
+                        <li><a href="#photography">Photography</a></li>
+                        <li><a href="#interactive">Interactive</a></li>
+                        <li><a href="#how-i-work">How I Work</a></li>
+                        <li><a href="#contact">Let's Talk</a></li>
+                    </ul>
+                </nav>
+            </aside>
+
+            <!-- Main Content -->
+            <main class="content-main">
+                <!-- Service Cards -->
+                <div class="services-grid">
+                    <!-- Service 1 -->
+                    <article class="service-card" id="branding">
+                        <h2>Branding & Visual Identity</h2>
+                        <p>Strategic brand development and visual identity systems that establish clear presence and scale with your organization. From naming and positioning to complete visual language, I build frameworks that guide consistent expression across touchpoints.</p>
+                        <div class="deliverables">
+                            <h4>Typical Deliverables</h4>
+                            <ul>
+                                <li>Logo systems</li>
+                                <li>Typography and color palettes</li>
+                                <li>Brand guidelines</li>
+                                <li>Design system documentation</li>
+                                <li>Application templates</li>
+                                <li>Brand toolkits</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <!-- Service 2 -->
+                    <article class="service-card" id="campaigns">
+                        <h2>Campaign & Graphic Design</h2>
+                        <p>Marketing campaigns, publication design, packaging, environmental graphics, and event materials. Work that translates strategic objectives into compelling visual narratives, whether for digital channels, print media, or physical spaces.</p>
+                        <div class="deliverables">
+                            <h4>Typical Deliverables</h4>
+                            <ul>
+                                <li>Campaign concepts and art direction</li>
+                                <li>Social media assets</li>
+                                <li>Presentation design</li>
+                                <li>Editorial layouts</li>
+                                <li>Packaging design</li>
+                                <li>Signage and wayfinding</li>
+                                <li>Conference materials</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <!-- Service 3 -->
+                    <article class="service-card" id="photography">
+                        <h2>Photography</h2>
+                        <p>Commercial and editorial photography across brand campaigns, product, architectural interiors, portraiture, and event documentation. I work both as solo photographer and collaboratively with creative teams, adapting approach to project needs.</p>
+                        <div class="deliverables">
+                            <h4>Typical Deliverables</h4>
+                            <ul>
+                                <li>Brand lifestyle photography</li>
+                                <li>Product photography</li>
+                                <li>Architectural and interior documentation</li>
+                                <li>Professional portraits</li>
+                                <li>Event coverage</li>
+                                <li>Editorial series</li>
+                                <li>Image retouching and editing</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <!-- Service 4 -->
+                    <article class="service-card" id="interactive">
+                        <h2>Interactive Experiences & Creative Coding</h2>
+                        <p>Custom digital experiences that go beyond standard web templates. From data visualizations and generative systems to brand tools and interactive installations. Work that combines design sensibility with technical implementation.</p>
+                        <div class="deliverables">
+                            <h4>Typical Deliverables</h4>
+                            <ul>
+                                <li>Interactive brand experiences</li>
+                                <li>Custom portfolio sites</li>
+                                <li>Data visualization projects</li>
+                                <li>Generative design tools</li>
+                                <li>Brand asset generators</li>
+                                <li>Exhibition and installation interfaces</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- How I Work Section -->
+                <section class="content-section" id="how-i-work">
+                    <h2>How I Work</h2>
+                    <p>Projects typically begin with a discovery phase to establish shared understanding of objectives, audience, constraints, and success criteria. From there, I develop strategic direction and initial concepts, iterate based on feedback, and move into execution and delivery. I maintain transparent communication throughout, sharing work in progress and addressing questions as they arise.</p>
+                    <p>For ongoing relationships, I offer retainer arrangements providing consistent support for evolving design needs—whether that's monthly brand asset creation, regular photography shoots, or iterative development of digital products.</p>
+                </section>
+
+                <!-- Contact Section -->
+                <section class="content-section" id="contact">
+                    <h2>Let's Talk</h2>
+                    <p>Every project is different, so rather than fixed packages, I prefer conversations about your specific needs and goals. Reach out via <a href="mailto:delfimiguez@gmail.com">email</a> to discuss your project, and I'll respond within one business day with thoughts on approach, timeline, and investment.</p>
+                    <p>I'm selective about projects, prioritizing work where there's strong creative alignment and opportunity for meaningful collaboration. I work best with clients who value process, welcome dialogue, and are committed to doing things well.</p>
+                </section>
+            </main>
         </div>
-
-        <div class="service-item">
-            <h3>Campaign & Graphic Design</h3>
-            <p>Marketing campaigns, publication design, packaging, environmental graphics, and event materials. Work that translates strategic objectives into compelling visual narratives, whether for digital channels, print media, or physical spaces.</p>
-            <p class="service-deliverables"><strong>Typical deliverables:</strong> Campaign concepts and art direction, social media assets, presentation design, editorial layouts, packaging design, signage and wayfinding, conference materials</p>
-        </div>
-
-        <div class="service-item">
-            <h3>Photography</h3>
-            <p>Commercial and editorial photography across brand campaigns, product, architectural interiors, portraiture, and event documentation. I work both as solo photographer and collaboratively with creative teams, adapting approach to project needs.</p>
-            <p class="service-deliverables"><strong>Typical deliverables:</strong> Brand lifestyle photography, product photography, architectural and interior documentation, professional portraits, event coverage, editorial series, image retouching and editing</p>
-        </div>
-
-        <div class="service-item">
-            <h3>Interactive Experiences & Creative Coding</h3>
-            <p>Custom digital experiences that go beyond standard web templates. From data visualizations and generative systems to brand tools and interactive installations. Work that combines design sensibility with technical implementation.</p>
-            <p class="service-deliverables"><strong>Typical deliverables:</strong> Interactive brand experiences, custom portfolio sites, data visualization projects, generative design tools, brand asset generators, exhibition and installation interfaces</p>
-        </div>
-
-        <h2>How I Work</h2>
-        <p>Projects typically begin with a discovery phase to establish shared understanding of objectives, audience, constraints, and success criteria. From there, I develop strategic direction and initial concepts, iterate based on feedback, and move into execution and delivery. I maintain transparent communication throughout, sharing work in progress and addressing questions as they arise.</p>
-
-        <p>For ongoing relationships, I offer retainer arrangements providing consistent support for evolving design needs — whether that's monthly brand asset creation, regular photography shoots, or iterative development of digital products.</p>
-
-        <h2>Let's Talk</h2>
-        <p>Every project is different, so rather than fixed packages, I prefer conversations about your specific needs and goals. Reach out via <a href="mailto:delfimiguez@gmail.com">email</a> to discuss your project, and I'll respond within one business day with thoughts on approach, timeline, and investment.</p>
-
-        <p>I'm selective about projects, prioritizing work where there's strong creative alignment and opportunity for meaningful collaboration. I work best with clients who value process, welcome dialogue, and are committed to doing things well.</p>
     </div>
 
     <script src="global.js"></script>
+    <script src="content-pages.js"></script>
 </body>
 </html>
