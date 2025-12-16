@@ -14,52 +14,52 @@ const PORTFOLIO_DATA = {
             id: 'revizto-brand-system',
             slug: 'revizto-brand-system',
             title: 'Revizto Brand System Toolkit',
-            subtitle: 'Scalable design system for construction technology platform',
+            subtitle: 'Cloud-native visual system for DevOps infrastructure',
             category: 'Graphic Design',
-            tags: ['Branding', 'Design System', 'B2B SaaS'],
+            tags: ['Branding', 'Design System', 'B2B SaaS', 'DevOps'],
             year: '2024',
             clientType: 'Client',
-            client: 'Revizto',
+            client: 'Akuity',
             thumbnail: 'revizto-thumb',
 
-            summary: 'Comprehensive brand output simulator and design system documentation for construction technology platform.',
+            summary: 'Visual identity and brand system for a cloud-native DevOps company, designed to scale across product, marketing, and developer-facing touchpoints.',
 
             // Case study for Process toggle (recruiters page)
             caseStudy: {
-                context: 'Revizto needed scalable brand guidelines that could be applied consistently across digital and print touchpoints by both internal teams and external partners.',
-                role: 'Senior Creative Developer & Brand System Designer',
-                problem: 'Existing brand assets lacked systematic guardrails, leading to inconsistent application across social media, presentations, and marketing materials.',
-                process: 'Developed an interactive brand simulator that generates social media formats with automated composition rules. Built comprehensive documentation covering typography, color systems, layout grids, and asset usage. Created constraint-based output templates to prevent brand misuse.',
-                tools: ['Figma', 'JavaScript', 'HTML/CSS', 'Brand Guidelines'],
-                outcome: 'Delivered automated brand consistency tool that reduced design review cycles by 60% and empowered non-designers to create on-brand content.',
-                learnings: 'Constraint-based systems are more effective than infinite customization options for maintaining brand integrity at scale.'
+                context: 'Akuity is a cloud-native company focused on GitOps workflows for Kubernetes. Their audience is highly technical—platform engineers, DevOps teams, and infrastructure leaders—who value clarity, precision, and trust. The brand needed to communicate complex infrastructure concepts while remaining approachable and modern, across product UI, technical documentation, marketing pages, conference materials, and social content.',
+                role: 'Visual Designer & Illustrator',
+                problem: 'Akuity needed a scalable visual system that could clearly explain complex DevOps concepts while maintaining credibility with a deeply technical audience. Existing visuals lacked consistency and systemization, making it difficult to scale content without constant design intervention.',
+                process: 'Defined a modular visual language inspired by cloud infrastructure and flow-based systems. Designed a scalable illustration framework to represent abstract concepts such as pipelines, orchestration, and automation. Established compositional rules, hierarchy, and repeatable components that could be applied consistently across marketing, documentation, and presentations.',
+                tools: ['Figma', 'Adobe Illustrator'],
+                outcome: 'Delivered a cohesive brand system that improved clarity in technical communication and enabled consistent visual output across teams. The system scaled across multiple touchpoints and strengthened Akuity’s brand recognition within the cloud-native ecosystem.',
+                learnings: 'Design systems for technical products work best when they respect user expertise while guiding understanding through structure and hierarchy. Clarity and consistency build trust with engineering audiences.'
             },
 
             // Full project detail content
             sections: {
                 summary: {
                     title: 'Summary',
-                    content: 'Revizto needed a systematic approach to brand application that could scale across teams and touchpoints. This project delivered both strategic guidelines and practical tools—including an interactive brand simulator that generates social media assets with automated composition rules. The system empowers non-designers to create on-brand content while maintaining visual consistency.',
+                    content: 'Akuity required a clear and scalable visual identity to support its growing presence in the cloud-native and DevOps ecosystem. The project focused on creating a cohesive brand system capable of translating complex GitOps and Kubernetes concepts into clear, structured visuals without oversimplifying the underlying technology.',
                     images: ['hero', 'overview-1', 'overview-2']
                 },
                 challenge: {
                     title: 'Challenge',
-                    content: 'Existing brand assets lacked systematic guardrails, leading to inconsistent application across social media, presentations, and marketing materials. Each new asset required design team review, creating bottlenecks. The company needed a solution that preserved brand integrity while enabling distributed content creation. The challenge was building a system flexible enough for diverse use cases but constrained enough to prevent misuse.',
+                    content: 'The primary challenge was communicating deeply technical infrastructure concepts to multiple audiences while maintaining credibility with experienced engineers. Visuals needed to work across diverse contexts—product, documentation, marketing, and events—without fragmenting the brand or introducing inconsistency.',
                     images: ['challenge-before', 'challenge-analysis']
                 },
                 process: {
                     title: 'Process',
-                    content: 'Started with comprehensive brand audit documenting existing touchpoints and pain points. Conducted stakeholder interviews across marketing, sales, and product teams to understand workflow constraints. Developed compositional rules based on grid systems and optical balance principles. Built interactive prototypes to test constraint effectiveness. Iterated based on real-world usage, adjusting rules where they felt too restrictive or too loose. Created extensive documentation with clear examples of correct and incorrect applications.',
+                    content: 'The process began with an audit of existing brand and product materials to identify gaps and inconsistencies. From there, a modular visual language was developed, grounded in systems thinking and flow-based representations. A scalable illustration framework was designed to visualize pipelines, automation, and orchestration. The system was tested and refined across multiple applications to ensure flexibility and long-term scalability.',
                     images: ['process-audit', 'process-sketches', 'process-prototype', 'process-testing']
                 },
                 outcome: {
                     title: 'Outcome',
-                    content: 'The brand system reduced design review cycles by 60%, freeing the design team to focus on strategic work. Marketing team adoption was immediate—within two weeks, 90% of social posts used the new system. Brand consistency metrics improved measurably across all channels. The interactive simulator became the most-used internal tool, with teams requesting expansions to additional formats. Six months post-launch, the company reported stronger brand recognition in user surveys.',
+                    content: 'The final system provided Akuity with a consistent and recognizable visual identity across all touchpoints. Technical concepts became easier to understand, brand cohesion improved, and teams were able to scale content production with confidence. The system continues to support new features, announcements, and documentation as the company grows.',
                     images: ['outcome-tool', 'outcome-examples', 'outcome-metrics']
                 },
                 learnings: {
                     title: 'Learnings',
-                    content: 'Constraint-based systems are more effective than infinite customization options for maintaining brand integrity at scale. Users need clear boundaries, not endless choices. The most successful aspect was making "correct" choices automatic—when the tool only allows good outcomes, users don\'t need deep design knowledge. Documentation matters, but tools matter more. People will use a good tool over reading guidelines every time.',
+                    content: 'When designing for highly technical audiences, clarity must come from structure rather than simplification. Strong visual systems enable scale, reduce friction, and allow teams to communicate complex ideas with confidence. This project reinforced the value of treating design as an integral part of technical storytelling.',
                     images: []
                 }
             }
