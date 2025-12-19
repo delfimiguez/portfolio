@@ -39,29 +39,34 @@ const PORTFOLIO_DATA = {
             sections: {
                 summary: {
                     title: 'Summary',
-                    content: 'Akuity required a clear and scalable visual identity to support its growing presence in the cloud-native and DevOps ecosystem. The project focused on creating a cohesive brand system capable of translating complex GitOps and Kubernetes concepts into clear, structured visuals without oversimplifying the underlying technology.',
+                    content: 'P1NK is a wellness-focused coconut water brand designed for movement, performance, and everyday life. The project involved creating a complete visual identity system that reflects both the brand’s energetic, performance-driven side and its natural, organic foundation. The system was designed to scale across packaging, digital platforms, and lifestyle applications.',
                     images: ['hero', 'overview-1', 'overview-2']
                 },
+
                 challenge: {
                     title: 'Challenge',
-                    content: 'The primary challenge was communicating deeply technical infrastructure concepts to multiple audiences while maintaining credibility with experienced engineers. Visuals needed to work across diverse contexts—product, documentation, marketing, and events—without fragmenting the brand or introducing inconsistency.',
-                    images: ['challenge-before', 'challenge-analysis']
+                    content: 'The main challenge was defining a visual identity that could live comfortably between two worlds: bold performance and natural wellness. The brand needed to feel powerful and energetic without losing authenticity or purity. Additionally, the identity had to work consistently across packaging, marketing assets, social media, and digital experiences.',
+                    images: ['challenge-direction-1', 'challenge-direction-2']
                 },
+
                 process: {
                     title: 'Process',
-                    content: 'The process began with an audit of existing brand and product materials to identify gaps and inconsistencies. From there, a modular visual language was developed, grounded in systems thinking and flow-based representations. A scalable illustration framework was designed to visualize pipelines, automation, and orchestration. The system was tested and refined across multiple applications to ensure flexibility and long-term scalability.',
-                    images: ['process-audit', 'process-sketches', 'process-prototype', 'process-testing']
+                    content: 'The process focused on exploring multiple creative directions before converging into a cohesive system. Performance-driven visuals emphasized bold typography, strong color contrasts, and dynamic compositions. Natural-focused explorations introduced softer palettes, organic textures, and refined typographic choices. These directions informed a flexible brand system that allows P1NK to shift emphasis depending on context, while maintaining a consistent visual core.',
+                    images: ['process-directions', 'process-packaging', 'process-typography', 'process-applications']
                 },
+
                 outcome: {
                     title: 'Outcome',
-                    content: 'The final system provided Akuity with a consistent and recognizable visual identity across all touchpoints. Technical concepts became easier to understand, brand cohesion improved, and teams were able to scale content production with confidence. The system continues to support new features, announcements, and documentation as the company grows.',
-                    images: ['outcome-tool', 'outcome-examples', 'outcome-metrics']
+                    content: 'The resulting identity gives P1NK a strong, recognizable presence both on shelf and online. Packaging stands out through confident typography and color, while digital and lifestyle applications reinforce the brand’s values of movement, hydration, and natural performance. The system provides a solid foundation for future campaigns, product extensions, and collaborations.',
+                    images: ['outcome-packaging', 'outcome-digital', 'outcome-social']
                 },
+
                 learnings: {
                     title: 'Learnings',
-                    content: 'When designing for highly technical audiences, clarity must come from structure rather than simplification. Strong visual systems enable scale, reduce friction, and allow teams to communicate complex ideas with confidence. This project reinforced the value of treating design as an integral part of technical storytelling.',
+                    content: 'Effective brand systems allow flexibility without sacrificing recognition. By designing with real applications in mind—packaging, e-commerce, and social—the P1NK identity demonstrates how strong visual structure can support both creative exploration and long-term brand consistency.',
                     images: []
-                }
+                },
+
             }
         },
         {
