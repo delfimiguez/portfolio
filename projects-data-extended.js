@@ -11,8 +11,8 @@ const PORTFOLIO_DATA = {
     // ========================================
     graphicDesign: [
         {
-            id: 'P1NK Brand System',
-            slug: 'p1nk-brand-system',
+            id: 'Akuity Brand System',
+            slug: 'akuity-brand-system',
             title: 'P1NK Brand System',
             subtitle: 'Performance-driven visual identity for a modern wellness brand',
             category: 'Graphic Design',
