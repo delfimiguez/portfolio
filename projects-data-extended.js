@@ -546,7 +546,7 @@ const PORTFOLIO_DATA = {
             year: '2024',
             clientType: 'Client',
             client: 'JustCoffee',
-            seriesCount: 20,
+            seriesCount: 15,
             thumbnail: 'justcoffee-hero',
             
             summary: 'Product and lifestyle photography for specialty coffee brand, capturing the craft and ritual of coffee preparation.',
@@ -555,22 +555,7 @@ const PORTFOLIO_DATA = {
                 summary: {
                     title: 'About',
                     content: 'JustCoffee is a specialty coffee roaster focused on quality and transparency. The photography needed to communicate craftsmanship while remaining approachable. Shot product details, brewing processes, and lifestyle moments that connect with coffee enthusiasts.',
-                    images: ['hero', 'product-1', 'lifestyle-1', 'detail-1']
-                },
-                approach: {
-                    title: 'Approach',
-                    content: 'Emphasized natural light and authentic moments. Focused on textures—coffee grounds, steam, ceramic surfaces. Captured the ritual and process, not just final product. Color palette stayed warm and inviting.',
-                    images: ['process-1', 'process-2']
-                },
-                technical: {
-                    title: 'Technical',
-                    content: 'Shot on Canon EOS R5 with 50mm f/1.2 and 100mm Macro. Natural window light supplemented with reflectors. Shallow depth of field to isolate subjects. Minimal post-processing to maintain natural colors.',
-                    images: []
-                },
-                outcome: {
-                    title: 'Outcome',
-                    content: 'Photography used across packaging, website, social media, and retail displays. Images successfully communicate quality and craft while remaining accessible.',
-                    images: ['final-applications']
+                    images: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15']
                 }
             }
         },
@@ -584,7 +569,7 @@ const PORTFOLIO_DATA = {
             year: '2024',
             clientType: 'Client',
             client: 'YM Bar & Kitchen',
-            seriesCount: 30,
+            seriesCount: 15,
             thumbnail: 'ym-hero',
             
             summary: 'Interior and food photography for modern bar and kitchen, capturing atmosphere and culinary offerings.',
@@ -593,22 +578,7 @@ const PORTFOLIO_DATA = {
                 summary: {
                     title: 'About',
                     content: 'YM Bar & Kitchen needed photography that captured both their sophisticated interior design and their food. The challenge was shooting in challenging lighting conditions while maintaining natural atmosphere.',
-                    images: ['hero', 'interior-1', 'food-1', 'ambience-1']
-                },
-                approach: {
-                    title: 'Approach',
-                    content: 'Shot during service to capture authentic energy. Balanced ambient restaurant lighting with subtle fill. Composed food shots to emphasize plating artistry. Captured candid moments of service and preparation.',
-                    images: ['approach-1', 'approach-2']
-                },
-                technical: {
-                    title: 'Technical',
-                    content: 'Canon EOS R5 with 24-70mm f/2.8 and 50mm f/1.2. High ISO capabilities essential for low-light shooting. Continuous lighting to maintain natural restaurant ambience.',
-                    images: []
-                },
-                outcome: {
-                    title: 'Outcome',
-                    content: 'Photography successfully communicates upscale but welcoming atmosphere. Used across website, social media, and press materials.',
-                    images: ['final-web', 'final-social']
+                    images: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15']
                 }
             }
         },
@@ -631,22 +601,7 @@ const PORTFOLIO_DATA = {
                 summary: {
                     title: 'About',
                     content: 'Craft ginger beer brand needed product photography that communicated natural ingredients and quality. Focused on texture, color, and lifestyle context.',
-                    images: ['hero', 'product-1', 'ingredients', 'lifestyle']
-                },
-                approach: {
-                    title: 'Approach',
-                    content: 'Natural light photography emphasizing golden hour warmth. Shot products in lifestyle contexts—beach, outdoor dining, summer gatherings. Close-ups on bubbles and color.',
-                    images: ['approach-1', 'approach-2']
-                },
-                technical: {
-                    title: 'Technical',
-                    content: 'Canon EOS R5, 24-70mm and 100mm Macro. Natural light only. Fast shutter to freeze carbonation bubbles.',
-                    images: []
-                },
-                outcome: {
-                    title: 'Outcome',
-                    content: 'Photography used in packaging design, social media, and retail point-of-sale materials.',
-                    images: ['final-packaging', 'final-pos']
+                    images: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15']
                 }
             }
         },
@@ -660,7 +615,7 @@ const PORTFOLIO_DATA = {
             year: '2024',
             clientType: 'Client',
             client: 'Your Mates Brewery',
-            seriesCount: 25,
+            seriesCount: 15,
             thumbnail: 'mates-photo-hero',
             
             summary: 'Photography series capturing craft brewing process and social atmosphere.',
@@ -669,22 +624,7 @@ const PORTFOLIO_DATA = {
                 summary: {
                     title: 'About',
                     content: 'Brewery photography emphasizing craft process and community. Documented brewing, serving, and social moments that define the brand.',
-                    images: ['hero', 'brewing-1', 'social-1', 'product-1']
-                },
-                approach: {
-                    title: 'Approach',
-                    content: 'Authentic, documentary style. Captured real moments during brewing and service. Natural light and ambient bar lighting. Focus on hands, process, interaction.',
-                    images: ['approach-1', 'approach-2']
-                },
-                technical: {
-                    title: 'Technical',
-                    content: 'Canon EOS R5, 24-70mm f/2.8. High ISO for low-light brewery environments. Fast shutter for action moments.',
-                    images: []
-                },
-                outcome: {
-                    title: 'Outcome',
-                    content: 'Photography establishes authentic craft brand voice. Used extensively in social media, building strong community engagement.',
-                    images: ['social-applications']
+                    images: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15']
                 }
             }
         },
@@ -698,7 +638,7 @@ const PORTFOLIO_DATA = {
             year: '2024',
             clientType: 'Client',
             client: 'Golden Restaurant',
-            seriesCount: 18,
+            seriesCount: 15,
             thumbnail: 'golden-hero',
             
             summary: 'Food photography optimized for menu use, emphasizing appetizing presentation and accurate color.',
@@ -707,22 +647,7 @@ const PORTFOLIO_DATA = {
                 summary: {
                     title: 'About',
                     content: 'Menu photography requiring accurate representation while remaining appetizing. Each dish photographed consistently for cohesive menu design.',
-                    images: ['hero', 'dish-1', 'dish-2', 'dish-3']
-                },
-                approach: {
-                    title: 'Approach',
-                    content: 'Consistent overhead angle for all dishes. Natural styling—dishes as served. Soft natural light for accurate color. Neutral backgrounds to not compete with food.',
-                    images: ['approach-1', 'approach-2']
-                },
-                technical: {
-                    title: 'Technical',
-                    content: 'Canon EOS R5, 50mm f/1.2. Overhead rig for consistent angles. Diffused natural light. Color-corrected for print reproduction.',
-                    images: []
-                },
-                outcome: {
-                    title: 'Outcome',
-                    content: 'Complete menu photography system. Images work in print menus, digital displays, and promotional materials.',
-                    images: ['menu-final', 'digital-menu']
+                    images: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15']
                 }
             }
         },
@@ -736,7 +661,7 @@ const PORTFOLIO_DATA = {
             year: '2024',
             clientType: 'Client',
             client: 'Crackerjack',
-            seriesCount: 22,
+            seriesCount: 15,
             thumbnail: 'crackerjack-photo-hero',
             
             summary: 'Lifestyle and product photography establishing consistent brand visual language.',
@@ -745,22 +670,7 @@ const PORTFOLIO_DATA = {
                 summary: {
                     title: 'About',
                     content: 'Brand photography series establishing visual consistency across touchpoints. Balanced product focus with lifestyle context.',
-                    images: ['hero', 'lifestyle-1', 'product-1', 'detail-1']
-                },
-                approach: {
-                    title: 'Approach',
-                    content: 'Natural light, authentic moments, consistent color palette. Product in real-world contexts. Emphasis on textures and details.',
-                    images: ['approach-1', 'approach-2']
-                },
-                technical: {
-                    title: 'Technical',
-                    content: 'Canon EOS R5, 24-70mm and 50mm. Natural light only. Consistent color grading across series.',
-                    images: []
-                },
-                outcome: {
-                    title: 'Outcome',
-                    content: 'Photography system enables consistent brand presence across social media and marketing materials.',
-                    images: ['social-grid']
+                    images: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15']
                 }
             }
         },
@@ -774,7 +684,7 @@ const PORTFOLIO_DATA = {
             year: '2024',
             clientType: 'Client',
             client: 'The Grand Hotel',
-            seriesCount: 35,
+            seriesCount: 15,
             thumbnail: 'grand-hero',
             
             summary: 'Hotel interior and exterior photography for luxury hospitality brand.',
@@ -783,22 +693,7 @@ const PORTFOLIO_DATA = {
                 summary: {
                     title: 'About',
                     content: 'Luxury hotel photography capturing architecture, interiors, and guest experience. Emphasis on natural light and authentic atmosphere.',
-                    images: ['hero', 'exterior', 'room', 'common-space']
-                },
-                approach: {
-                    title: 'Approach',
-                    content: 'Shot during optimal natural light times. Captured spaces empty and in use. Emphasis on architectural details and luxurious materials.',
-                    images: ['approach-1', 'approach-2']
-                },
-                technical: {
-                    title: 'Technical',
-                    content: 'Canon EOS R5, 16-35mm for architecture, 50mm for details. Tripod for interior consistency. HDR technique for challenging lighting.',
-                    images: []
-                },
-                outcome: {
-                    title: 'Outcome',
-                    content: 'Photography used across website, booking platforms, and marketing materials. Successfully communicates luxury positioning.',
-                    images: ['website', 'booking-platforms']
+                    images: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15']
                 }
             }
         },
@@ -812,7 +707,7 @@ const PORTFOLIO_DATA = {
             year: '2024',
             clientType: 'Client',
             client: 'Robertsons Pub',
-            seriesCount: 20,
+            seriesCount: 15,
             thumbnail: 'robertsons-hero',
             
             summary: 'Pub photography capturing character, atmosphere, and community.',
@@ -821,22 +716,7 @@ const PORTFOLIO_DATA = {
                 summary: {
                     title: 'About',
                     content: 'Traditional pub photography emphasizing warmth, character, and social atmosphere. Documented space and community.',
-                    images: ['hero', 'interior', 'bar', 'patrons']
-                },
-                approach: {
-                    title: 'Approach',
-                    content: 'Ambient pub lighting maintained for authenticity. Candid moments during service. Details of historic features and character.',
-                    images: ['approach-1', 'approach-2']
-                },
-                technical: {
-                    title: 'Technical',
-                    content: 'Canon EOS R5, 24-70mm. High ISO for low-light pub environment. Minimal lighting intervention to preserve atmosphere.',
-                    images: []
-                },
-                outcome: {
-                    title: 'Outcome',
-                    content: 'Photography successfully communicates welcoming, historic character. Used in website and local promotion.',
-                    images: ['website', 'social']
+                    images: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15']
                 }
             }
         },
@@ -850,7 +730,7 @@ const PORTFOLIO_DATA = {
             year: '2024',
             clientType: 'Client',
             client: 'Diggies Cafe',
-            seriesCount: 18,
+            seriesCount: 15,
             thumbnail: 'diggies-hero',
             
             summary: 'Cafe photography capturing food, space, and morning atmosphere.',
@@ -859,22 +739,7 @@ const PORTFOLIO_DATA = {
                 summary: {
                     title: 'About',
                     content: 'Neighborhood cafe photography emphasizing fresh food, morning light, and community vibe.',
-                    images: ['hero', 'food', 'interior', 'coffee']
-                },
-                approach: {
-                    title: 'Approach',
-                    content: 'Natural morning light emphasized. Fresh, simple food styling. Candid moments of cafe culture.',
-                    images: ['approach-1', 'approach-2']
-                },
-                technical: {
-                    title: 'Technical',
-                    content: 'Canon EOS R5, 50mm and 100mm macro. Natural light only. Fresh, minimal styling.',
-                    images: []
-                },
-                outcome: {
-                    title: 'Outcome',
-                    content: 'Photography establishes fresh, welcoming brand identity. Strong social media engagement.',
-                    images: ['social-feed']
+                    images: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15']
                 }
             }
         },
@@ -888,7 +753,7 @@ const PORTFOLIO_DATA = {
             year: '2024',
             clientType: 'Client',
             client: 'Manly Stoke Hostel',
-            seriesCount: 25,
+            seriesCount: 15,
             thumbnail: 'manly-hero',
             
             summary: 'Hostel photography emphasizing social atmosphere and coastal location.',
@@ -897,22 +762,7 @@ const PORTFOLIO_DATA = {
                 summary: {
                     title: 'About',
                     content: 'Backpacker hostel photography capturing social energy and beach proximity. Emphasis on community and adventure.',
-                    images: ['hero', 'common-areas', 'beach', 'social']
-                },
-                approach: {
-                    title: 'Approach',
-                    content: 'Authentic documentary style. Captured real guests and staff. Coastal light and colors emphasized. Energy and movement.',
-                    images: ['approach-1', 'approach-2']
-                },
-                technical: {
-                    title: 'Technical',
-                    content: 'Canon EOS R5, 24-70mm. Natural light. Fast shutter for action. Vibrant color processing.',
-                    images: []
-                },
-                outcome: {
-                    title: 'Outcome',
-                    content: 'Photography successfully attracts target backpacker demographic. High booking conversion from visual content.',
-                    images: ['booking-site']
+                    images: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15']
                 }
             }
         },
@@ -926,7 +776,7 @@ const PORTFOLIO_DATA = {
             year: '2024',
             clientType: 'Client',
             client: 'The Pacific Hostel',
-            seriesCount: 20,
+            seriesCount: 15,
             thumbnail: 'pacific-hero',
             
             summary: 'Hostel photography balancing clean facilities with social atmosphere.',
@@ -935,22 +785,7 @@ const PORTFOLIO_DATA = {
                 summary: {
                     title: 'About',
                     content: 'Hostel photography emphasizing modern facilities while maintaining authentic backpacker culture.',
-                    images: ['hero', 'rooms', 'common', 'guests']
-                },
-                approach: {
-                    title: 'Approach',
-                    content: 'Clean, bright interior photography. Candid social moments. Balance of facility and atmosphere shots.',
-                    images: ['approach-1', 'approach-2']
-                },
-                technical: {
-                    title: 'Technical',
-                    content: 'Canon EOS R5, 16-35mm for interiors. Natural light with fill. Clean, modern processing.',
-                    images: []
-                },
-                outcome: {
-                    title: 'Outcome',
-                    content: 'Photography positions hostel as clean, modern, social. Used across booking platforms and social media.',
-                    images: ['booking-platforms', 'social']
+                    images: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15']
                 }
             }
         },
@@ -964,7 +799,7 @@ const PORTFOLIO_DATA = {
             year: '2023',
             clientType: 'Personal',
             client: null,
-            seriesCount: 30,
+            seriesCount: 15,
             thumbnail: 'caravan-hero',
             
             summary: 'Documentary travel photography series capturing caravan life in Argentina.',
@@ -973,22 +808,7 @@ const PORTFOLIO_DATA = {
                 summary: {
                     title: 'About',
                     content: 'Personal travel photography project documenting caravan travelers in Argentina. Emphasis on landscape, lifestyle, and travel culture.',
-                    images: ['hero', 'landscape', 'caravan', 'people']
-                },
-                approach: {
-                    title: 'Approach',
-                    content: 'Documentary style. Natural light. Emphasis on golden hour. Captured both grand landscape and intimate moments.',
-                    images: ['approach-1', 'approach-2']
-                },
-                technical: {
-                    title: 'Technical',
-                    content: 'Canon EOS R5, 24-70mm and 70-200mm. Natural light only. Minimal post-processing to preserve authenticity.',
-                    images: []
-                },
-                outcome: {
-                    title: 'Outcome',
-                    content: 'Series exhibited in local gallery. Featured in travel publication. Captures authentic nomadic lifestyle.',
-                    images: ['exhibition', 'publication']
+                    images: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15']
                 }
             }
         }

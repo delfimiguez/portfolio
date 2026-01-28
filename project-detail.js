@@ -88,12 +88,12 @@ class ProjectDetailPage {
 
         sectionKeys.forEach(key => {
             const section = sections[key];
-            const sectionEl = this.createSectionElement(key, section);
+            const sectionEl = this.createSectionElement(key, section, project);
             sectionsContainer.appendChild(sectionEl);
         });
     }
 
-    createSectionElement(key, section) {
+    createSectionElement(key, section, project) {
         const sectionEl = document.createElement('section');
         sectionEl.className = 'project-section';
         sectionEl.id = `section-${key}`;
@@ -111,28 +111,59 @@ class ProjectDetailPage {
 
         // Section images (if any)
         if (section.images && section.images.length > 0) {
-            const imagesGrid = this.createImagesGrid(section.images);
+            const imagesGrid = this.createImagesGrid(section.images, project);
             sectionEl.appendChild(imagesGrid);
         }
 
         return sectionEl;
     }
 
-    createImagesGrid(images) {
+    createImagesGrid(images, project) {
         const grid = document.createElement('div');
         grid.className = 'section-images';
 
-        // Add class based on number of images
-        if (images.length === 1) {
-            grid.classList.add('single-image');
-        } else if (images.length === 2) {
-            grid.classList.add('two-images');
+        // Check if this is a photography project
+        const isPhotography = project.category === 'Photography';
+
+        if (isPhotography) {
+            // Photography uses single column vertical grid
+            grid.classList.add('photography-grid');
+        } else {
+            // Design projects use adaptive grid
+            if (images.length === 1) {
+                grid.classList.add('single-image');
+            } else if (images.length === 2) {
+                grid.classList.add('two-images');
+            }
         }
 
         images.forEach(imageName => {
             const placeholder = document.createElement('div');
             placeholder.className = 'section-image-placeholder';
-            placeholder.dataset.image = imageName;
+            
+            // Create img element and attempt to load
+            const img = document.createElement('img');
+            
+            if (isPhotography) {
+                // Photography: images/photography/slug/01.jpg, 02.jpg, etc.
+                img.src = `../images/photography/${project.slug}/${imageName}.jpg`;
+            } else {
+                // Design projects: images/projects/slug/imagename.jpg
+                img.src = `../images/projects/${project.slug}/${imageName}.jpg`;
+            }
+            
+            img.alt = `${project.title} - ${imageName}`;
+            
+            // If image loads successfully, append it
+            img.onload = function() {
+                placeholder.appendChild(img);
+            };
+            
+            // If image fails to load, placeholder::after will show
+            img.onerror = function() {
+                // Image failed to load, placeholder will show gray box
+            };
+            
             grid.appendChild(placeholder);
         });
 
