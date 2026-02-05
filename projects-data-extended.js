@@ -35,7 +35,7 @@ const PORTFOLIO_DATA = {
             },
             
             sections: {
-                summary: {
+                about: {
                     title: 'About',
                     content: 'P1NK approached me to create their complete brand identity from the ground up. As a startup entering the competitive wellness beverage space, they needed more than a pretty logo—they needed a strategic visual system that could communicate quality, transparency, and performance. The project encompassed brand strategy, visual identity, packaging design, and creative direction for launch materials.',
                     images: ['hero', 'logo-system', 'color-palette']
@@ -87,7 +87,7 @@ const PORTFOLIO_DATA = {
             },
             
             sections: {
-                summary: {
+                about: {
                     title: 'About',
                     content: 'Limitless Peptides is pioneering accessible peptide education in the wellness space. When they approached me, they had strong scientific content but no systematic way to present it. The challenge was creating an editorial design system flexible enough to handle everything from product packaging to multi-page guides.',
                     images: ['hero', 'system-overview']
@@ -139,7 +139,7 @@ const PORTFOLIO_DATA = {
             },
             
             sections: {
-                summary: {
+                about: {
                     title: 'About',
                     content: 'Ra Optics came to me with an ambitious idea: partner with an airline to provide circadian wellness support through their eyewear. This was fundamentally a strategic design challenge. The deck needed to work as business proposal, service blueprint, and brand story simultaneously.',
                     images: ['hero', 'deck-overview']
@@ -191,7 +191,7 @@ const PORTFOLIO_DATA = {
             },
             
             sections: {
-                summary: {
+                about: {
                     title: 'About',
                     content: 'Akuity is an enterprise DevOps platform company. When they brought me in as product marketing designer, they had strong product and engineering but inconsistent visual communication. The challenge was making complex infrastructure concepts comprehensible while respecting the technical sophistication of their audience.',
                     images: ['hero', 'marketing-overview']
@@ -243,7 +243,7 @@ const PORTFOLIO_DATA = {
             },
             
             sections: {
-                summary: {
+                about: {
                     title: 'About',
                     content: 'Accelex transforms unstructured investment data into structured intelligence. They needed to appear credible and established while feeling modern and innovative. This was about building a flexible, professional system that could scale with the company.',
                     images: ['hero', 'brand-overview']
@@ -295,7 +295,7 @@ const PORTFOLIO_DATA = {
             },
             
             sections: {
-                summary: {
+                about: {
                     title: 'About',
                     content: 'Wilshire came to me needing a complete brand refresh. They required a visual identity that conveyed competence, trustworthiness, and sophistication without feeling stuffy or dated. The project involved creating comprehensive brand guidelines and practical templates for all client-facing communications.',
                     images: ['hero', 'brand-identity']
@@ -347,7 +347,7 @@ const PORTFOLIO_DATA = {
             },
             
             sections: {
-                summary: {
+                about: {
                     title: 'About',
                     content: 'Crackerjack needed a consistent visual system for their social media presence. The challenge was creating photography guidelines that felt natural but on-brand, allowing different team members to create content that maintained visual consistency.',
                     images: ['hero', 'photography-system']
@@ -399,7 +399,7 @@ const PORTFOLIO_DATA = {
             },
             
             sections: {
-                summary: {
+                about: {
                     title: 'About',
                     content: 'Chronosphere launched a podcast series and needed complete visual identity. The challenge was creating a system that worked across audio platforms, video episodes, and social media promotion while maintaining brand connection to Chronosphere.',
                     images: ['hero', 'logo-system']
@@ -451,7 +451,7 @@ const PORTFOLIO_DATA = {
             },
             
             sections: {
-                summary: {
+                about: {
                     title: 'About',
                     content: 'An independent film festival needed a complete visual identity that would work across all touchpoints: posters, programs, signage, digital platforms, and merchandise. The identity needed to feel cinematic and cultural while remaining functional.',
                     images: ['hero', 'identity-overview']
@@ -503,7 +503,7 @@ const PORTFOLIO_DATA = {
             },
             
             sections: {
-                summary: {
+                about: {
                     title: 'About',
                     content: 'Your Mates Brewery needed creative direction for their social media presence. The challenge was capturing the authenticity of craft brewing while creating content that performed well on social platforms. This required building a photography system that internal teams could execute consistently.',
                     images: ['hero', 'photography-samples']
@@ -552,7 +552,7 @@ const PORTFOLIO_DATA = {
             summary: 'Product and lifestyle photography for specialty coffee brand, capturing the craft and ritual of coffee preparation.',
             
             sections: {
-                summary: {
+                about: {
                     title: 'About',
                     content: 'JustCoffee is a specialty coffee roaster focused on quality and transparency. The photography needed to communicate craftsmanship while remaining approachable. Shot product details, brewing processes, and lifestyle moments that connect with coffee enthusiasts.',
                     images: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15']
@@ -575,7 +575,7 @@ const PORTFOLIO_DATA = {
             summary: 'Interior and food photography for modern bar and kitchen, capturing atmosphere and culinary offerings.',
             
             sections: {
-                summary: {
+                about: {
                     title: 'About',
                     content: 'YM Bar & Kitchen needed photography that captured both their sophisticated interior design and their food. The challenge was shooting in challenging lighting conditions while maintaining natural atmosphere.',
                     images: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15']
@@ -598,7 +598,7 @@ const PORTFOLIO_DATA = {
             summary: 'Product photography emphasizing craft beverage quality and natural ingredients.',
             
             sections: {
-                summary: {
+                about: {
                     title: 'About',
                     content: 'Craft ginger beer brand needed product photography that communicated natural ingredients and quality. Focused on texture, color, and lifestyle context.',
                     images: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15']
@@ -621,7 +621,7 @@ const PORTFOLIO_DATA = {
             summary: 'Photography series capturing craft brewing process and social atmosphere.',
             
             sections: {
-                summary: {
+                about: {
                     title: 'About',
                     content: 'Brewery photography emphasizing craft process and community. Documented brewing, serving, and social moments that define the brand.',
                     images: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15']
@@ -644,7 +644,7 @@ const PORTFOLIO_DATA = {
             summary: 'Food photography optimized for menu use, emphasizing appetizing presentation and accurate color.',
             
             sections: {
-                summary: {
+                about: {
                     title: 'About',
                     content: 'Menu photography requiring accurate representation while remaining appetizing. Each dish photographed consistently for cohesive menu design.',
                     images: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15']
@@ -667,7 +667,7 @@ const PORTFOLIO_DATA = {
             summary: 'Lifestyle and product photography establishing consistent brand visual language.',
             
             sections: {
-                summary: {
+                about: {
                     title: 'About',
                     content: 'Brand photography series establishing visual consistency across touchpoints. Balanced product focus with lifestyle context.',
                     images: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15']
@@ -690,7 +690,7 @@ const PORTFOLIO_DATA = {
             summary: 'Hotel interior and exterior photography for luxury hospitality brand.',
             
             sections: {
-                summary: {
+                about: {
                     title: 'About',
                     content: 'Luxury hotel photography capturing architecture, interiors, and guest experience. Emphasis on natural light and authentic atmosphere.',
                     images: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15']
@@ -713,7 +713,7 @@ const PORTFOLIO_DATA = {
             summary: 'Pub photography capturing character, atmosphere, and community.',
             
             sections: {
-                summary: {
+                about: {
                     title: 'About',
                     content: 'Traditional pub photography emphasizing warmth, character, and social atmosphere. Documented space and community.',
                     images: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15']
@@ -736,7 +736,7 @@ const PORTFOLIO_DATA = {
             summary: 'Cafe photography capturing food, space, and morning atmosphere.',
             
             sections: {
-                summary: {
+                about: {
                     title: 'About',
                     content: 'Neighborhood cafe photography emphasizing fresh food, morning light, and community vibe.',
                     images: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15']
@@ -759,7 +759,7 @@ const PORTFOLIO_DATA = {
             summary: 'Hostel photography emphasizing social atmosphere and coastal location.',
             
             sections: {
-                summary: {
+                about: {
                     title: 'About',
                     content: 'Backpacker hostel photography capturing social energy and beach proximity. Emphasis on community and adventure.',
                     images: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15']
@@ -782,7 +782,7 @@ const PORTFOLIO_DATA = {
             summary: 'Hostel photography balancing clean facilities with social atmosphere.',
             
             sections: {
-                summary: {
+                about: {
                     title: 'About',
                     content: 'Hostel photography emphasizing modern facilities while maintaining authentic backpacker culture.',
                     images: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15']
@@ -805,7 +805,7 @@ const PORTFOLIO_DATA = {
             summary: 'Documentary travel photography series capturing caravan life in Argentina.',
             
             sections: {
-                summary: {
+                about: {
                     title: 'About',
                     content: 'Personal travel photography project documenting caravan travelers in Argentina. Emphasis on landscape, lifestyle, and travel culture.',
                     images: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', '15']
@@ -843,7 +843,7 @@ const PORTFOLIO_DATA = {
             },
             
             sections: {
-                summary: {
+                about: {
                     title: 'About',
                     content: 'Kinetic Typography Lab explores how motion can enhance typographic communication. The project experiments with various animation approaches—wave patterns, rhythm-based systems, physics simulations—to understand when motion adds value versus when it distracts.',
                     images: ['hero', 'modes-overview']
@@ -895,7 +895,7 @@ const PORTFOLIO_DATA = {
             },
             
             sections: {
-                summary: {
+                about: {
                     title: 'About',
                     content: 'Ocean Plastics Awareness Website translates scientific data about plastic pollution into visceral, interactive experience. Uses scrollytelling and data visualization to make abstract statistics tangible and emotionally resonant.',
                     images: ['hero', 'visualizations']
@@ -947,7 +947,7 @@ const PORTFOLIO_DATA = {
             },
             
             sections: {
-                summary: {
+                about: {
                     title: 'About',
                     content: 'Anonymous Poems Wall is a digital installation exploring how technology can facilitate vulnerable creative expression. Users can submit poems anonymously and explore others\' contributions in a contemplative, non-judgmental space.',
                     images: ['hero', 'interface']
