@@ -33,6 +33,7 @@ class ProjectDetailPage {
         this.populateNavigation(project);
         this.populateSections(project);
         this.initScrollSpy();
+        this.initLightbox();
     }
 
     populateHeader(project) {
@@ -218,6 +219,57 @@ class ProjectDetailPage {
     showError() {
         document.querySelector('.project-detail-container').style.display = 'none';
         document.getElementById('error-state').style.display = 'flex';
+    }
+
+    initLightbox() {
+        // Create lightbox element
+        const lightbox = document.createElement('div');
+        lightbox.className = 'lightbox';
+        lightbox.innerHTML = `
+            <button class="lightbox-close" aria-label="Close">&times;</button>
+            <img class="lightbox-content" src="" alt="Project image">
+        `;
+        document.body.appendChild(lightbox);
+
+        const lightboxImg = lightbox.querySelector('.lightbox-content');
+        const lightboxClose = lightbox.querySelector('.lightbox-close');
+
+        // Add click handlers to all project images
+        document.addEventListener('click', (e) => {
+            // Check if clicked element is an image inside section-image-placeholder
+            const placeholder = e.target.closest('.section-image-placeholder');
+            if (placeholder) {
+                const img = placeholder.querySelector('img');
+                if (img && img.complete) {
+                    // Open lightbox with this image
+                    lightboxImg.src = img.src;
+                    lightboxImg.alt = img.alt;
+                    lightbox.classList.add('active');
+                    document.body.style.overflow = 'hidden';
+                }
+            }
+        });
+
+        // Close lightbox on click
+        lightbox.addEventListener('click', () => {
+            lightbox.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+
+        // Close button
+        lightboxClose.addEventListener('click', (e) => {
+            e.stopPropagation();
+            lightbox.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+
+        // Close on escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+                lightbox.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+        });
     }
 }
 
